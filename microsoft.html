@@ -20,23 +20,23 @@
       <div>
         <div class="flex justify-center items-center pt-3 gap-6 text-sm ">
           <img src="./card -1/logo.png" alt="" class="h-6 object-cover" />
-          <p>Microsoft 365</p>
-          <p>Teams</p>
-          <p>Copilot</p>
-          <p>Windows</p>
-          <p>Surface</p>
-          <p>xbox</p>
-          <p>Support</p>
+          <p><a href="#">Microsoft 365</p>
+          <p><a href="#">Teams</a></p>
+          <p><a href="#">Copilot</a></p>
+          <p><a href="#">Windows</a></p>
+          <p><a href="#">Surface</a></p>
+          <p><a href="#">xbox</a></p>
+          <p><a href="#">Support</a></p>
         </div>
       </div>
-      <div class="flex justify-center items-center gap-6 text-sm">
-        <p>All Microsoft</p>
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <i class="fa-solid fa-cart-shopping"></i>
-        <i class="fa-solid fa-user"></i>
+      <div class="flex justify-center items-center gap-6 text-sm ">
+        <p class="cursor-pointer">All Microsoft</p>
+        <i class="fa-solid fa-magnifying-glass cursor-pointer"></i>
+        <i class="fa-solid fa-cart-shopping cursor-pointer"></i>
+        <i class="fa-solid fa-user cursor-pointer"></i>
       </div>
     </nav>
-
+    <!------------------------ hero section---------------------------------->
     <div class="w-full">
       <div class="absolute z-20 pl-30 pt-44 flex flex-col gap-4">
         <h1 class="text-3xl font-semibold">Achieve the extraordinary</h1>
@@ -56,21 +56,23 @@
         alt=""
         class="object-cover w-full h-132 bg-no-repeat relative" />
     </div>
-    <!------------------------ hero section---------------------------------->
+
+
+
     <div class="flex gap-9 font-semibold w-full justify-center pt-30">
-      <div class="flex gap-2 flex-col">
+      <div class="flex gap-2 flex-col underline text-blue-500 cursor-pointer">
         <img src="./card -1/icon-micro.svg" alt="icon" class="h-10" />
         <p>Choose your Microsoft 365</p>
       </div>
-      <div class="flex gap-2 flex-col">
+      <div class="flex gap-2 flex-col underline text-blue-500 cursor-pointer">
         <img src="./card -1/icon-xbox.svg" alt="" class="h-10" />
         <p>Shop Xbox</p>
       </div>
-      <div class="flex gap-2 flex-col">
+      <div class="flex gap-2 flex-col underline text-blue-500 cursor-pointer">
         <img src="./card -1/icon-micro.svg" alt="icon" class="h-10" />
         <p>Get Windows 11</p>
       </div>
-      <div class="flex gap-2 flex-col">
+      <div class="flex gap-2 flex-col underline text-blue-500 cursor-pointer">
         <img src="./card -1/icon-tab.svg" alt="icon" class="h-10" />
         <p>Explore Surface devices</p>
       </div>
@@ -81,7 +83,7 @@
     <card-section class="w-full">
       <div class="w-100% h-109 flex justify-center items-center pt-30 gap-4">
         <!-- card 1 -->
-        <div class="w-70 border-amber-100 pb-5 border-2 h-109">
+        <div class="w-70  shadow-[4px_4px_10px_0px_rgba(0,0,0,0.1)] h-109">
           <div>
             <img src="./card -1/laptop.avif" alt="" class="h-40 w-70 object-cover" />
           </div>
@@ -104,7 +106,7 @@
         </div>
 
         <!-- card-2 -->
-        <div class="w-70 h-109 border-amber-100 border-2">
+        <div class="w-70 h-109 shadow-[4px_4px_10px_0px_rgba(0,0,0,0.1)]">
           <div>
             <img src="./card -1/xbox-s.webp" alt="" class="h-40 w-70 object-cover" />
           </div>
@@ -123,7 +125,7 @@
         </div>
 
         <!-- card - 3 -->
-        <div class="w-70 border-amber-100 pb-5 border-2 h-109">
+        <div class="w-70  shadow-[4px_4px_10px_0px_rgba(0,0,0,0.1)] pb-5  h-109">
           <div>
             <img src="./card -1/xbox-x.webp" alt="" class="h-40 w-70 object-cover" />
           </div>
@@ -144,7 +146,7 @@
         </div>
 
         <!-- card - 4  -->
-        <div class="w-70 border-amber-100 pb-5 border-2 h-109">
+        <div class="w-70  shadow-[4px_4px_10px_0px_rgba(0,0,0,0.1)] pb-5  h-109">
           <div>
             <img src="./card -1/game pass.avif" alt="" class="h-40 w-70 object-cover" />
           </div>
@@ -166,27 +168,40 @@
       </div>
     </card-section>
 
-    <div class="w-full object-cover flex justify-center pt-20">
-      <img src="./card -1/card2.avif" alt="" class="w-292 h-140" />
+    <div class="w-full">
+      <div class="absolute z-20 pl-40 pt-65 flex flex-col gap-4">
+        <h1 class="text-3xl font-semibold">Copilot is your AI <span class="block"> companion</span></h1>
+        <p>
+          Always by your side, ready to support you <span class="block">whenever and wherever you need it.</span>
+        </p>
+        <button
+          class="bg-blue-600 w-55 h-10 text-white font-semibold rounded-xs cursor-pointer">
+          Download the Copilot app
+        </button>
+      </div>
+      <div class="w-full object-cover flex justify-center pt-20">
+      <img src="./card -1/c.avif" alt="" class="w-292 h-140" />
     </div>
-
+    </div>
+    
     <!-- ---------------------card section-2------------------------------ -->
 
-    <card-section class="w-full">
-      <div class="w-100% h-fit flex justify-center items-center pt-30 gap-4">
+    <card-section class="w-full h-fit">
+         <h1 class="pl-12 pt-22 pb-4 text-3xl font-semibold">For business</h1>
+      <div class="w-100% h-fit flex justify-center items-center pt-0 gap-4">
+     
         <!-- card 1 -->
-        <div class="w-70 border-amber-100 pb-5 border-2 h-fit">
+        <div class="w-70 border-amber-100 pb-5 border-2 h-125 ">
           <div>
             <img src="./card -1/card-2/pc.avif" alt="" class="h-40 w-70 object-cover" />
           </div>
-          <div class="flex flex-col gap-3 pl-6 pt-5">
+          <div class="flex flex-col gap- pl-6 pt-5">
+            <button class="w-15 h-8 bg-yellow-500 font-semibold">NEW</button>
             <h1 class="text-2xl font-semibold">
-              Surface Laptop, <span class="block">Copilot+ PC</span>
+              Surface Pro for Business, Copilot+ <span class="block">PC (Intel)</span>
             </h1>
-            <p>
-              Unlock AI features like Live <br />
-              Captions and Cocreator with this exceptionally powerful <br />
-              laptop.
+            <p class="pt-4 pb-4">
+           Ultra-versatile and built with Intel® Core™ Ultra processors (Series 2) that power AI experiences to amplify your team’s productivity.
             </p>
             <button
               class="bg-blue-600 w-30 h-10 text-white font-semibold rounded-xs">
@@ -196,7 +211,7 @@
         </div>
 
         <!-- card-2 -->
-        <div class="w-70 border-amber-100 pb-5 border-2 h-fit">
+        <div class="w-70 border-amber-100 pb-5 border-2 h-125">
           <div>
             <img
               src="./card -1/card-2/Card-Copilot.avif"
@@ -204,13 +219,11 @@
               class="h-40 w-70 object-cover" />
           </div>
           <div class="flex flex-col gap-3 pl-6 pt-5">
-            <h1 class="text-2xl font-semibold">
-              Surface Laptop, <span class="block">Copilot+ PC</span>
+            <h1 class="text-2xl font-semibold pt-8">
+              Microsoft 365 <span class="block"> Copilot</span>
             </h1>
-            <p>
-              Unlock AI features like Live <br />
-              Captions and Cocreator with this exceptionally powerful <br />
-              laptop.
+            <p class="pb-10">
+             Save time and focus on the <span class="block">things that matter most with</span>AI in Microsoft 365 for <span class="block">business.</span>
             </p>
             <button
               class="bg-blue-600 w-30 h-10 text-white font-semibold rounded-xs">
@@ -220,7 +233,7 @@
         </div>
 
         <!-- card - 3 -->
-        <div class="w-70 border-amber-100 pb-5 border-2 h-fit">
+        <div class="w-70 border-amber-100 pb-5 border-2 h-125">
           <div>
             <img
               src="./card -1/card-2/AI-Bloom.avif"
@@ -228,41 +241,37 @@
               class="h-40 w-70 object-cover" />
           </div>
           <div class="flex flex-col gap-3 pl-6 pt-5">
-            <h1 class="text-2xl font-semibold">
-              Surface Laptop, <span class="block">Copilot+ PC</span>
+            <h1 class="text-2xl font-semibold pt-8">
+              Join the era of AI
             </h1>
-            <p>
-              Unlock AI features like Live <br />
-              Captions and Cocreator with this exceptionally powerful <br />
-              laptop.
+            <p class="pb-24">
+             Create, communicate, and <span class="block">code with the latest Microsoft</span> AI solutions.
             </p>
             <button
-              class="bg-blue-600 w-30 h-10 text-white font-semibold rounded-xs">
-              Learn more
+              class="bg-blue-600 w-40 h-10 text-white font-semibold rounded-xs">
+              Explore AI solutions
             </button>
           </div>
         </div>
 
         <!-- card - 4  -->
-        <div class="w-70 border-amber-100 pb-5 border-2 h-fit">
+        <div class="w-70 border-amber-100 pb-5 border-2 h-125">
           <div>
             <img
               src="./card -1/card-2/Visual-Studio-Icon.webp"
               alt=""
-              class="h-40 w-70 object-cover" />
+              class="h-40 w-70 object-cover" >
           </div>
           <div class="flex flex-col gap-3 pl-6 pt-5">
-            <h1 class="text-2xl font-semibold">
-              Surface Laptop, <span class="block">Copilot+ PC</span>
+            <h1 class="text-2xl font-semibold pt-8">
+              Visual Studio 2022
             </h1>
-            <p>
-              Unlock AI features like Live <br />
-              Captions and Cocreator with this exceptionally powerful <br />
-              laptop.
+            <p class="pb-4">
+              Get the most comprehensive <span class="block">IDE for .NET and C++</span> developers on Windows for building web, cloud, desktop, mobile apps, services and <span class="block">games.</span>
             </p>
             <button
-              class="bg-blue-600 w-30 h-10 text-white font-semibold rounded-xs">
-              Learn more
+              class="bg-blue-600 w-50 h-12 text-white font-semibold rounded-xs">
+             Download Visual Studio2022
             </button>
           </div>
         </div>
